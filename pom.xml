@@ -71,11 +71,9 @@
 <configuration>  
 <format>HTML</format>  
 <outputDirectory>${dependency.check.report.dir}</outputDirectory>  
+<failBuildOnCVSS>1</failBuildOnCVSS>  
 </configuration>  
 </plugin>
         </plugins>
-    </build>
-    <configuration>  
-<failBuildOnCVSS>1</failBuildOnCVSS>  
-</configuration>  
+         </build>
 </project>
