@@ -47,15 +47,16 @@
                     </execution>
                 </executions>
             </plugin>
-            <plugin>    
+            <plugin>   
+                <groupId>org.apache.maven.plugins</groupId>
 <artifactId>maven-dependency-plugin</artifactId>  
-<version>2.10</version>
+<version>2.3</version>
+<executions>  
+<execution>  
 <configuration>  
 <format>HTML</format>  
 <failBuildOnCVSS>1</failBuildOnCVSS>  
 </configuration>
-<executions>  
-<execution>  
 <goals>  
 <goal>analyze</goal>  
 </goals>  
