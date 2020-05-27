@@ -55,10 +55,11 @@
 <execution>  
 <configuration>  
 <format>HTML</format>  
+    <outputDirectory>${dependency.check.report.dir}</outputDirectory>
 <failBuildOnCVSS>1</failBuildOnCVSS>  
 </configuration>
 <goals>  
-<goal>analyze</goal>  
+<goal>check</goal>  
 </goals>  
 </execution>  
 </executions>  
